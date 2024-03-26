@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Punti Bro</string>
-    <string name="bro_name">Bro name</string>
+    <string name="bro_name">Nome bro</string>
     <integer name="bro_score">213</integer>
 </resources>

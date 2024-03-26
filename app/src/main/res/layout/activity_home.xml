@@ -60,12 +60,161 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="72dp"
+        android:layout_marginBottom="116dp"
         android:src="@drawable/immagine_base"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/nome_bro1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/bro_name"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/nome_bro2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/nome_bro6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/bro_name"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="512dp" />
+        app:layout_constraintStart_toEndOf="@+id/nome_bro5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
+    <TextView
+        android:id="@+id/nome_bro4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/bro_name"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nome_bro3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+    <TextView
+        android:id="@+id/nome_bro3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/bro_name"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/nome_bro4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
+    <TextView
+        android:id="@+id/nome_bro2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="72dp"
+        android:text="@string/bro_name"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nome_bro1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/nome_bro5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="67dp"
+        android:text="@string/bro_name"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/nome_bro6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="67dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/numero6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_bro1" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numero4"
+        app:layout_constraintTop_toBottomOf="@+id/nome_bro6" />
+
+    <EditText
+        android:id="@+id/numero3"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numero5"
+        app:layout_constraintTop_toBottomOf="@+id/nome_bro4" />
+
+    <EditText
+        android:id="@+id/numero4"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="67dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/numero2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_bro5" />
+
+    <EditText
+        android:id="@+id/numero5"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="67dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/numero3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_bro3" />
+
+    <EditText
+        android:id="@+id/numero6"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="72dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/numero1"
+        app:layout_constraintTop_toBottomOf="@+id/nome_bro2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
