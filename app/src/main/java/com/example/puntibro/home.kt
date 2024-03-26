@@ -1,3 +1,4 @@
 package com.example.puntibro
 
-class home 
+class home {
+}
